@@ -3,7 +3,20 @@
   min-width: 186px;
   list-style-type: none;
   display: flex;
-  margin-left: 0;
+  padding-left: 0;
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .footer__list {
+    padding-left: 48px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .footer__list {
+   padding-left: 24px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -11,6 +24,7 @@
     flex-direction: column;
     justify-content: space-between;
     min-height: 310px;
+    padding-left: 16px;
 }
 }
 

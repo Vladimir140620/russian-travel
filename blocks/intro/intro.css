@@ -4,38 +4,43 @@
 @import url(./__list/_bold/intro__list_bold.css);
 
 .intro {
-  margin-top: 90px;
-  max-width: 690px;
+  margin-top: 92px;
   min-width: 288px;
+  max-width: 690px;
   margin-left: 148px;
-  margin-right: 442px;
-  margin-bottom: 92px;
+  margin-right: auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px){
+ .intro {
+  margin-left: 148px;
+  margin-right: auto;
+}
+}
+
+@media screen and (max-width: 1024px){
   .intro {
-    margin-top: 92px;
-    width: 100%;
-    margin-right: 286px;
     margin-left: 48px;
   }
-}
+  }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px){
   .intro {
     margin-top: 88px;
-    max-width: 288px;
-    margin-bottom: 99px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .intro {
-    margin-top: 64px;
-    width: 100%;
-    margin-right: 16px;
-    margin-left: 16px;
+    max-width: 100%;
+    margin-left: 24px;
+    margin-right: 24px;
 
   }
-}
+  }
+
+  @media screen and (max-width: 425px){
+    .intro {
+      max-width: 288px;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+    }
+
 

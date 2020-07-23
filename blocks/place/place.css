@@ -9,46 +9,35 @@
 .place {
   padding-top: 80px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, max-content));       
-  grid-template-rows: auto auto;       
+  grid-template-columns: repeat(auto-fit, minmax(320px, max-content));
+  grid-template-rows: auto auto;
   grid-gap: 48px 40px;
   justify-content: center;
   max-width: 984px;
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
 }
 
 @media screen and (max-width: 1024px) {
   .place {
     max-width: 928px;
-    margin-left: auto;
-    margin-right: auto;
     grid-gap: 48px 32px;
-    }
+    margin-left: 48px;
+    margin-right: 48px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .place {
     padding-top: 72px;
     max-width: 720px;
-    margin-left: auto;
-    margin-right: auto;
     grid-gap: 48px 28px;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .place {    
+  .place {
     padding-top: 48px;
     max-width: 320px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
-
-
-
-
-
-
-
