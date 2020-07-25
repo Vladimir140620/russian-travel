@@ -1,5 +1,4 @@
 .intro__title {
-    font-family: 'Inter';
     color: white;
     font-style: normal;
     font-size: 54px;
@@ -11,15 +10,5 @@
   .intro__title {
     font-size: 32px;
     line-height: 35px;
-    width: 288px;  }
+    max-width: 288px;  }
 }
-
-/* @media screen and (max-width: 768px) {
-  .intro__title {
-
-    max-width: 100%;
-  }
-}
- */
-
-
